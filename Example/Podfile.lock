@@ -1,0 +1,16 @@
+PODS:
+  - QuickGWT (0.1.0)
+
+DEPENDENCIES:
+  - QuickGWT (from `../`)
+
+EXTERNAL SOURCES:
+  QuickGWT:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QuickGWT: 267b3a7abc569dca4cd3a31087dd0b659690275f
+
+PODFILE CHECKSUM: f3e6f7e5ff2ee958688eafccaef06a3757d5bc75
+
+COCOAPODS: 1.5.2

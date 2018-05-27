@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QuickGWT_Example' do
+  pod 'QuickGWT', :path => '../'
+
+  target 'QuickGWT_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
