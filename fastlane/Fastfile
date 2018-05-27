@@ -19,7 +19,7 @@ platform :ios do
 		  version = releaseBranchName.partition('/').last
 		
   		version_bump_podspec(path: "QuickGWT.podspec", version_number: version)
-  		cocoapods(clean: true, podfile: "Example/Podfile")
+  		cocoapods(clean: true, repo_update: true, podfile: "Example/Podfile")
 
   		scan()
   		pod_lib_lint
