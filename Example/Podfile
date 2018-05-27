@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'QuickGWT_Example' do
   pod 'QuickGWT', :path => '../'
-  pod 'InjectableLoggers'
+  pod 'InjectableLoggers', '~> 1.2'
   
   target 'QuickGWT_Tests' do
     inherit! :search_paths

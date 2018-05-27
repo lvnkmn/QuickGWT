@@ -8,7 +8,7 @@ PODS:
     - Quick (~> 1.3)
 
 DEPENDENCIES:
-  - InjectableLoggers
+  - InjectableLoggers (~> 1.2)
   - MockNStub
   - Nimble
   - QuickGWT (from `../`)
@@ -31,6 +31,6 @@ SPEC CHECKSUMS:
   Quick: 03278013f71aa05fe9ecabc94fbcc6835f1ee76f
   QuickGWT: afac55111adbdb181c480515c22177762bf61d44
 
-PODFILE CHECKSUM: c3adbccc67913dc4e799788b9abc4017d170abfa
+PODFILE CHECKSUM: 7175328b8489cb8e03bfc33f015ec6cdb0ccfc01
 
 COCOAPODS: 1.5.2
