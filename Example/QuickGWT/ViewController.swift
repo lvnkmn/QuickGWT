@@ -8,17 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+public class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    public var viewModel: ViewControllerViewModel?
+    
+    override public func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        guard let viewModel = viewModel else { logger.logError("Expected viewModel"); return }
+        
+        title = viewModel.title
+        view.backgroundColor = viewModel.backgroundColor
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 
