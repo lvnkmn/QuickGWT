@@ -1,0 +1,2 @@
+workspace("Example/QuickGWT.xcworkspace")
+scheme("QuickGWT-Example")
