@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		151E0DDD79922FB02B38EAF5 /* QuickGWT.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickGWT.podspec; path = ../QuickGWT.podspec; sourceTree = "<group>"; };
-		2DF5E59A7D06438A46071583 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		151E0DDD79922FB02B38EAF5 /* QuickGWT.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QuickGWT.podspec; path = ../QuickGWT.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2DF5E59A7D06438A46071583 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* QuickGWT_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickGWT_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		71EAA90CB2788413E3DEA558 /* Pods-QuickGWT_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickGWT_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickGWT_Tests/Pods-QuickGWT_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		786CECA03B2DEA04295CC3FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		786CECA03B2DEA04295CC3FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9CD3B53CFB7BF395CD9E0721 /* Pods_QuickGWT_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickGWT_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82C83499AAF67E4D7A8FC01 /* Pods-QuickGWT_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickGWT_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickGWT_Example/Pods-QuickGWT_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B0D421B39E87F9CC01F9A8E4 /* Pods-QuickGWT_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickGWT_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickGWT_Tests/Pods-QuickGWT_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -304,10 +304,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-QuickGWT_Example/Pods-QuickGWT_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 				"${BUILT_PRODUCTS_DIR}/QuickGWT/QuickGWT.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QuickGWT.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
