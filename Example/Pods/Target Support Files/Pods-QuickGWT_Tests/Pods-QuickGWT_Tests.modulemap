@@ -1,0 +1,6 @@
+framework module Pods_QuickGWT_Tests {
+  umbrella header "Pods-QuickGWT_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

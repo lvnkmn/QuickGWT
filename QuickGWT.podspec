@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'QuickGWT'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Simply adds Given When and Then to Quick.'
   s.description      = <<-DESC
 Simply adds Given When and Then to Quick. And makes sure the test outputs are looking pretty.
