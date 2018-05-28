@@ -32,6 +32,7 @@ given("A viewController") {
 	}
 	
 	when("viewDidLoad") {
+	
 		beforeEach {
 			sut.viewDidLoad()
 		}
