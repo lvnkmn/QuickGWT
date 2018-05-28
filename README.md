@@ -47,7 +47,7 @@ given("A viewController") {
     }
 }
 ```
-The test results of will look like this:
+The test results will look like this:
 ![Test results](Art/TestResults.png)
 
 ## Some background
