@@ -37,3 +37,4 @@ Carthage/Build
 # Pods/
 IDEWorkspaceChecks.plist
 fastlane/test_output
+Example/Podfile.lock

@@ -14,7 +14,7 @@ public class ViewController: UIViewController {
     
     override public func viewDidLoad() {
         super.viewDidLoad()
-        guard let viewModel = viewModel else { logger.logError("Expected viewModel"); return }
+        guard let viewModel = viewModel else { logger.log("Expected viewModel", atLevel: .error); return }
         
         title = viewModel.title
         view.backgroundColor = viewModel.backgroundColor
