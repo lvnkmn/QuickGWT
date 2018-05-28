@@ -25,26 +25,26 @@ Considering you're already using Quick and Nimble:
 ```Swift
 given("A viewController") {
 	
-	var sut: ViewController!
+    var sut: ViewController!
 	
-	beforeEach {
-		sut = ViewController()
-	}
+    beforeEach {
+        sut = ViewController()
+    }
 	
-	when("viewDidLoad") {
-	
-		beforeEach {
-			sut.viewDidLoad()
-		}
-		
-		then("title is set") {
-			expect(sut.title).to(equal("Expected Title"))
-		}
-		
-		then("backgroundColor is set") {
-			expect(sut.view.backgroundColor).to(equal(UIColor.white))
-		}
-	}
+    when("viewDidLoad") {
+
+        beforeEach {
+            sut.viewDidLoad()
+        }
+
+        then("title is set") {
+            expect(sut.title).to(equal("Expected Title"))
+        }
+
+        then("backgroundColor is set") {
+            expect(sut.view.backgroundColor).to(equal(UIColor.white))
+        }
+    }
 }
 ```
 The test results of will look like this:
