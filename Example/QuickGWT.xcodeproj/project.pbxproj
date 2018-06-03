@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* ViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* ViewControllerSpec.swift */; };
 		790988F023CE3AEB155861C4 /* Pods_QuickGWT_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CD3B53CFB7BF395CD9E0721 /* Pods_QuickGWT_Example.framework */; };
+		DEDE956920C4A12800B342CB /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = DEDE956820C4A12800B342CB /* Fastfile */; };
 		DEE5E6B720BB228000167E4A /* ViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE5E6B620BB228000167E4A /* ViewControllerViewModel.swift */; };
 		DEE5E6BA20BB263C00167E4A /* logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE5E6B920BB263C00167E4A /* logger.swift */; };
 		DEE5E6BB20BB278F00167E4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -53,6 +54,7 @@
 		A82C83499AAF67E4D7A8FC01 /* Pods-QuickGWT_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickGWT_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickGWT_Example/Pods-QuickGWT_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B0D421B39E87F9CC01F9A8E4 /* Pods-QuickGWT_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickGWT_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickGWT_Tests/Pods-QuickGWT_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C0C9C29CD67C4F2A60608AE6 /* Pods-QuickGWT_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickGWT_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickGWT_Example/Pods-QuickGWT_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DEDE956820C4A12800B342CB /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Fastfile; path = ../fastlane/Fastfile; sourceTree = "<group>"; };
 		DEE5E6B620BB228000167E4A /* ViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerViewModel.swift; sourceTree = "<group>"; };
 		DEE5E6B920BB263C00167E4A /* logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logger.swift; sourceTree = "<group>"; };
 		DEE5E6C220BB298F00167E4A /* ViewController.ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.ViewModel.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				DEDE956820C4A12800B342CB /* Fastfile */,
 				151E0DDD79922FB02B38EAF5 /* QuickGWT.podspec */,
 				2DF5E59A7D06438A46071583 /* README.md */,
 				786CECA03B2DEA04295CC3FA /* LICENSE */,
@@ -301,6 +304,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				DEDE956920C4A12800B342CB /* Fastfile in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
