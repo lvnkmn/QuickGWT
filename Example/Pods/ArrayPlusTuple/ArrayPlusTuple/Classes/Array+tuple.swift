@@ -1,6 +1,6 @@
-internal extension Array {
+public extension Array {
     
-    var tuple: Any {
+    public var tuple: Any {
         switch count {
         case 0:
             return ()
@@ -53,7 +53,7 @@ internal extension Array {
         case 24:
             return (self[0], self[1], self[2], self[3], self[4], self[5], self[6], self[7], self[8], self[9], self[10], self[11], self[12], self[13], self[14], self[15], self[16], self[17], self[18], self[19], self[20], self[21], self[22], self[23])
         default:
-            logger.log("Can currently only create tuples from arrays with up to 24 elements. Elements at index 25 and up will be lost", atLevel: .warning)
+            logger.logWarning("Can currently only create tuples from arrays with up to 24 elements. Elements at index 25 and up will be lost")
             return (self[0], self[1], self[2], self[3], self[4], self[5], self[6], self[7], self[8], self[9], self[10], self[11], self[12], self[13], self[14], self[15], self[16], self[17], self[18], self[19], self[20], self[21], self[22], self[23])
         }
     }

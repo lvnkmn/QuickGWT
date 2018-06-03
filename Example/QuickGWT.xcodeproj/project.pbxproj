@@ -327,12 +327,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-QuickGWT_Tests/Pods-QuickGWT_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/InjectableLoggers/InjectableLoggers.framework",
+				"${BUILT_PRODUCTS_DIR}/ArrayPlusTuple/ArrayPlusTuple.framework",
 				"${BUILT_PRODUCTS_DIR}/MockNStub/MockNStub.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InjectableLoggers.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ArrayPlusTuple.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MockNStub.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 			);

@@ -1,6 +1,6 @@
 {
   "name": "QuickGWT",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "summary": "Simply adds Given When and Then to Quick.",
   "description": "Simply adds Given When and Then to Quick. And makes sure the test outputs are looking pretty.",
   "homepage": "https://github.com/mennolovink/QuickGWT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/mennolovink/QuickGWT.git",
-    "tag": "1.0.0"
+    "tag": "1.1.0"
   },
   "platforms": {
     "ios": "7.0",
@@ -23,7 +23,7 @@
   "source_files": "QuickGWT/Classes/**/*",
   "dependencies": {
     "Quick": [
-      "~> 1.3"
+      "~> 1.2"
     ]
   }
 }
