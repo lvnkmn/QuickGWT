@@ -17,5 +17,5 @@ Simply adds Given When and Then to Quick. And makes sure the test outputs are lo
 
   s.source_files = 'QuickGWT/Classes/**/*'
   
-  s.dependency 'Quick', '~> 1.3'
+  s.dependency 'Quick', '~> 1.2'
 end
