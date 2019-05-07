@@ -73,10 +73,6 @@ You'd propably going to want this in your test target(s) only.
 ### Adding the code manually
 Considering the meat of this lib is only one file containing 4 functions, you could also just copy over [GivenWhenThen.swift](https://github.com/mennolovink/QuickGWT/blob/develop/QuickGWT/Classes/GivenWhenThen.swift) to your project/workspace. Don't forget to make sure the file is part of your test target(s).
 
-## Author
-
-mennolovink, mclovink@me.com
-
 ## License
 
 QuickGWT is available under the MIT license. See the LICENSE file for more info.
